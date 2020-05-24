@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "r-vasquez Launcher",
+  "version": "1.0.0",
+  "description": "Quick launch to main r-vasquez pages",
+  "short_name": "r-vasquez Launch",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icons/icon_128.png"
+  },
+  "browser_action": {
+    "default_title": "Does a thing when you do a thing",
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.png"
+  }
+}
